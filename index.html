@@ -22,8 +22,9 @@
          height: 5vw;
          width: 5vw;
          position: absolute;
-         transition: 0.5s;
+         transition: .5s;
       }
+
       .container .h-a{
          left: 30vw;
       }
@@ -85,10 +86,26 @@
       #s8 {
          top: 20vh;
       }
+      
+      .container .clock:hover {
+        animation: animate 1s infinite;
+      }
 
+      @keyframes animate {
+         0% {
+            transform: scale(1.0);
+         }
+         50% {
+            transform: scale(2.5);
+            border-radius: 10%;
+         }
+         100% {
+            transform: scale(1.0) ;
+         }
+      }
    </style>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-   <title>Binary Clock</title>
+   <title>Binary clock</title>
 </head>
 <body>
    <script src="script.js"></script>
