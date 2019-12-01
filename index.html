@@ -12,6 +12,50 @@
          position: absolute;
       }
 
+      h1 {
+         margin-left: 30vw;
+         margin-top: 1vh;
+         position: absolute;
+         width: 50vw;
+         font-size: 5vw;
+      }
+
+      h2 {
+         left: 5vw;
+         font-size: 5vw;
+         box-sizing: border-box;
+         position: absolute;
+      }
+
+      h3 {
+         top: 10vh;
+         font-size: 3vw;
+         position: absolute;
+      }
+
+      #hour {
+         left: 23vw;
+      }
+      #minute {
+         left: 45vw;
+      }
+      #second {
+         left: 70vw;
+      }
+
+      #t1 {
+         top: 80vh;
+      }
+      #t2 {
+         top: 60vh;
+      }
+      #t4 {
+         top: 40vh;
+      }
+      #t8 {
+         top: 20vh;
+      }
+
       .container #min {
          left: 50vw;
       }
@@ -47,44 +91,44 @@
       }
 
       #h1, #h10 {
-         top: 80vh;
+         top:90vh;
       }
       #h2, #h20 {
-         top: 60vh;
+         top: 70vh;
       }
       #h4 {
-         top:40vh;
+         top:50vh;
       }
       #h8 {
-         top: 20vh;
+         top: 30vh;
       }
 
 
       #m1, #m10 {
-         top: 80vh;
+         top: 90vh;
       }
       #m2, #m20 {
-         top: 60vh;
+         top: 70vh;
       }
       #m4, #m40 {
-         top: 40vh;
+         top: 50vh;
       }
       #m8 {
-         top: 20vh;
+         top: 30vh;
       }
 
 
       #s1, #s10 {
-         top: 80vh;
+         top: 90vh;
       }
       #s2, #s20 {
-         top: 60vh;
+         top: 70vh;
       }
       #s4, #s40 {
-         top: 40vh;
+         top: 50vh;
       }
       #s8 {
-         top: 20vh;
+         top: 30vh;
       }
       
       .container .clock:hover {
@@ -108,6 +152,14 @@
    <title>Binary clock</title>
 </head>
 <body>
+   <h1>Binary clock</h1>
+   <h2 id="t1">1</h2>
+   <h2 id="t2">2</h2>
+   <h2 id="t4">4</h2>
+   <h2 id="t8">8</h2>
+   <h3 id="hour">HOURS</h3>
+   <h3 id="minute">MINUTES</h3>
+   <h3 id="second">SECONDS</h3>
    <script src="script.js"></script>
    <div class="container">
       
